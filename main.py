@@ -51,7 +51,7 @@ def main():
         
     )
     st.title("Code Healer app")
-    st.write("this app that takes your buggy code and returns it error-free. No more head-scratching over syntax issues. Just submit, and get back code that works.")
+    st.write("this app takes your buggy code and returns it error-free. No more head-scratching over syntax issues. Just submit, and get back code that works.")
     st.divider()
 
     option=st.radio("Select Input Type",("Text","PDF"))
